@@ -7,8 +7,9 @@ body{
     --roboto:'Roboto', sans-serif;
 }
 
+
 .container{
-   margin-top: 10rem;
+    margin-top: 10rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -27,7 +28,6 @@ body{
 }
 
 .weatherTitle{
-    margin-left: 1.4rem;
     font-family: var(--roboto);
     font-size: clamp(2.5rem, 6vw, 4rem);
 }
@@ -70,4 +70,5 @@ body{
 #githubIcon{
     display: flex;
     justify-content: end;
+    margin-top: 20vh;
 }
