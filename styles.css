@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/*Clamp Superiority!!!*/
+body{
+    background-color: #cfe8f3;
+}
+:root{
+    --roboto:'Roboto', sans-serif;
+}
+
+.container{
+   margin-top: 10rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    /*margin-top: 10rem;
+    margin-right: 40rem;*/
+    gap: clamp(3rem, 4vw, 5rem);
+
+}
+
+.input-container{
+    display: flex;
+    align-content: center;
+    padding: 1rem .5rem .425rem .5rem;
+    border-radius: 25px;
+    background-color: #5879EC;
+}
+
+.weatherTitle{
+    margin-left: 1.4rem;
+    font-family: var(--roboto);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+}
+#weatherInput{
+    justify-content: flex-start;
+    width: 15rem;
+    color: white;
+    background-color: #5879EC;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+::placeholder {
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+}
+#searchIcon{
+
+}
+.weatherText{
+    font-family: var(--roboto);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 400;
+    color: #6C8EC1;
+}
+.celciusButton{
+    text-decoration: none;
+    color: black;
+    background-color: #E6B1B1;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: var(--roboto);
+    padding:.5rem clamp(1rem, 3vw, 4rem);
+    padding-top:clamp(.5rem, 1vw, 2rem);
+    width: 5rem;
+    margin-left: .5rem;
+}
+#githubIcon{
+    display: flex;
+    justify-content: end;
+}
