@@ -1,6 +1,6 @@
 //let regular_link = "api.openweathermap.org/data/2.5/weather?q=New York,&appid=94910b8a80339cf128a4c86c41826ed3&units=imperial"
 
-//
+//thing 
 let weatherInput = document.querySelector("#weatherInput");
 let weatherText = document.querySelector(".weatherText")
 let searchIcon = document.querySelector("#searchIcon")
