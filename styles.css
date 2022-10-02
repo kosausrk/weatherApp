@@ -34,6 +34,7 @@ body{
 #weatherInput{
     justify-content: flex-start;
     width: 15rem;
+    min-width: 0;
     color: white;
     background-color: #5879EC;
     padding: 1rem;
@@ -41,13 +42,17 @@ body{
     outline: none;
     border-radius: 25px;
 }
+
 ::placeholder {
     color:rgba(255, 255, 255, 0.5);
     font-size: 1.5rem;
 }
-#searchIcon{
 
+#image1{
+    max-width: 25%;
+    height: auto;
 }
+
 .weatherText{
     font-family: var(--roboto);
     font-size: clamp(2.5rem, 6vw, 4rem);
@@ -67,6 +72,7 @@ body{
     width: 5rem;
     margin-left: .5rem;
 }
+
 #githubIcon{
     display: flex;
     justify-content: end;
