@@ -1,5 +1,3 @@
-
-//thing that is added 
 let weatherInput = document.querySelector("#weatherInput");
 let weatherText = document.querySelector(".weatherText")
 let searchIcon = document.querySelector("#searchIcon")
